@@ -1,0 +1,123 @@
+xrun(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s001: Started on Apr 18, 2026 at 04:03:02 EDT
+xrun
+	-access +rwc
+	-f ./flist
+		-sv
+		-timescale 1ns/100ps
+		+incdir+../
+		../00_src/vending_machine.sv
+		../01_bench/tbench.sv
+Loading snapshot worklib.tbench:sv .................... Done
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /opt/cadence/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> run
+
+--- START SIMULATION ---
+
+[TEST CASE 1] Target: 20c (State D_20)
+The transaction have been drived to 0
+[1100] [test_direct] N:0 D:1 Q:0
+Put the transaction is done
+[1100] [DRIVER] Driver bat dau run Mailbox...
+[1100] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+The transaction have been drived to 0
+[1450] [test_direct] N:0 D:1 Q:0
+Put the transaction is done
+[1450] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[1650] PASSED: Soda=1, Change=000
+
+[TEST CASE 2] Target: 25c (State D_25)
+The transaction have been drived to 0
+[2150] [test_direct] N:0 D:0 Q:1
+Put the transaction is done
+[2150] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:1
+[2350] PASSED: Soda=1, Change=001
+
+[TEST CASE 3] Target: 30c (State D_30)
+The transaction have been drived to 0
+[2850] [test_direct] N:1 D:0 Q:0
+Put the transaction is done
+[2850] [DRIVER] Nhan duoc Trans ngau nhien: N:1 D:0 Q:0
+The transaction have been drived to 0
+[3250] [test_direct] N:0 D:0 Q:1
+Put the transaction is done
+[3250] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:1
+[3450] PASSED: Soda=1, Change=010
+
+[TEST CASE 4] Target: 35c (State D_35)
+The transaction have been drived to 0
+[3950] [test_direct] N:0 D:1 Q:0
+Put the transaction is done
+[3950] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+The transaction have been drived to 0
+[4350] [test_direct] N:0 D:0 Q:1
+Put the transaction is done
+[4350] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:1
+[4550] PASSED: Soda=1, Change=011
+
+[TEST CASE 5] Target: 40c (Max State D_40)
+The transaction have been drived to 0
+[5050] [test_direct] N:1 D:0 Q:0
+Put the transaction is done
+[5050] [DRIVER] Nhan duoc Trans ngau nhien: N:1 D:0 Q:0
+The transaction have been drived to 0
+[5450] [test_direct] N:0 D:1 Q:0
+Put the transaction is done
+[5450] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+The transaction have been drived to 0
+[5850] [test_direct] N:0 D:0 Q:1
+Put the transaction is done
+[5850] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:1
+[6050] PASSED: Soda=1, Change=100
+
+[RANDOM PHASE] Running 20 random transactions...
+The time that we want to count (randomize)  is: 20
+[6850] [test_random] N:1 D:0 Q:0
+[6850] [DRIVER] Nhan duoc Trans ngau nhien: N:1 D:0 Q:0
+[6860] [test_random] N:0 D:0 Q:1
+[6870] [test_random] N:0 D:0 Q:1
+[6880] [test_random] N:0 D:1 Q:0
+[6890] [test_random] N:0 D:1 Q:0
+[6900] [test_random] N:0 D:1 Q:0
+[6910] [test_random] N:0 D:1 Q:0
+[6920] [test_random] N:0 D:1 Q:0
+[6930] [test_random] N:0 D:1 Q:0
+[6940] [test_random] N:1 D:0 Q:0
+[6950] [test_random] N:0 D:0 Q:1
+[6960] [test_random] N:0 D:0 Q:1
+[6970] [test_random] N:0 D:0 Q:0
+[6980] [test_random] N:1 D:0 Q:0
+[6990] [test_random] N:0 D:1 Q:0
+[7000] [test_random] N:0 D:1 Q:0
+[7010] [test_random] N:0 D:0 Q:1
+[7020] [test_random] N:0 D:1 Q:0
+[7030] [test_random] N:1 D:0 Q:0
+[7040] [test_random] N:1 D:0 Q:0
+[7250] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:1
+[7650] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:1
+[8050] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[8450] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[8850] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[9250] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[9650] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[10050] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[10450] [DRIVER] Nhan duoc Trans ngau nhien: N:1 D:0 Q:0
+[10850] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:1
+[11250] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:1
+[11650] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:0
+[12050] [DRIVER] Nhan duoc Trans ngau nhien: N:1 D:0 Q:0
+[12450] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[12850] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[13250] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:0 Q:1
+[13650] [DRIVER] Nhan duoc Trans ngau nhien: N:0 D:1 Q:0
+[14050] [DRIVER] Nhan duoc Trans ngau nhien: N:1 D:0 Q:0
+[14450] [DRIVER] Nhan duoc Trans ngau nhien: N:1 D:0 Q:0
+
+--- SIMULATION FINISHED ---
+Simulation complete via $finish(1) at time 1495 NS + 1
+../01_bench/tbench.sv:122         $finish; 
+xcelium> exit
+TOOL:	xrun(64)	20.09-s001: Exiting on Apr 18, 2026 at 04:03:03 EDT  (total: 00:00:01)

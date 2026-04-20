@@ -1,0 +1,82 @@
+*** Message Type: info ***
+When: Mon Apr 13 07:55:32 EDT 2026
+SimVision started.
+Version: TOOL:  simvision(64)   20.09-s001
+User: admin
+Host: centos7
+Platform: Linux/x86_64/3.10.0-1160.108.1.el7.x86_64
+Started: Mon Apr 13 07:55:32 EDT 2026
+Command: /opt/cadence/XCELIUM2009/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:centos7:52553 -64BIT -nocopyright
+Work Directory: /home/admin/shared/tngduy/CTMT_252/lab_1/03_sim
+ 
+*** Message Type: info ***
+When: Mon Apr 13 07:55:32 EDT 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Apr 13 07:55:33 EDT 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Mon Apr 13 07:55:34 EDT 2026
+Connect to Simulator
+      Design: worklib.tbench:sv
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:  xmsim(64)       20.09-s001
+        User: admin
+        Host: centos7
+Time Started: Mon Apr 13 07:55:31 EDT 2026
+  Process ID: 12382
+   Directory: /home/admin/shared/tngduy/CTMT_252/lab_1/03_sim
+     Command: xrun -gui -access +rwc -f ./flist -input restore.tcl
+
+ 
+*** Message Type: info ***
+When: Mon Apr 13 07:55:34 EDT 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Mon Apr 13 07:57:09 EDT 2026
+Exit XM-Sim: abnormal
+      Design: worklib.tbench:sv
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:  xmsim(64)       20.09-s001
+        User: admin
+        Host: centos7
+Time Started: Mon Apr 13 07:55:31 EDT 2026
+  Process ID: 12382
+   Directory: /home/admin/shared/tngduy/CTMT_252/lab_1/03_sim
+     Command: xrun -gui -access +rwc -f ./flist -input restore.tcl
+
+ 
+*** Message Type: error ***
+When: Mon Apr 13 07:57:09 EDT 2026
+XM-Sim Crashed:
+      Design: worklib.tbench:sv
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:  xmsim(64)       20.09-s001
+        User: admin
+        Host: centos7
+Time Started: Mon Apr 13 07:55:31 EDT 2026
+  Process ID: 12382
+   Directory: /home/admin/shared/tngduy/CTMT_252/lab_1/03_sim
+     Command: xrun -gui -access +rwc -f ./flist -input restore.tcl
+      Design: worklib.tbench:sv
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:     xmsim(64)       20.09-s001
+        User: admin
+        Host: centos7
+Time Started: Mon Apr 13 07:55:31 EDT 2026
+  Process ID: 12382
+   Directory: /home/admin/shared/tngduy/CTMT_252/lab_1/03_sim
+     Command: xrun -gui -access +rwc -f ./flist -input restore.tcl
+
+ 
+*** Message Type: info ***
+When: Mon Apr 13 07:57:13 EDT 2026
+SimVision Exit.
+ 
