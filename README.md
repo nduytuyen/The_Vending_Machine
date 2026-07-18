@@ -10,9 +10,6 @@ Dự án tập trung vào việc hiện thực hóa bộ điều khiển bằng 
 * **Giảng viên hướng dẫn:** PGS. TS. Trần Hoàng Linh
 * **Nhóm sinh viên thực hiện:**
   * **Nguyễn Duy Tuyên** – MSSV: 2213821
-  * **Nguyễn Tuệ** – MSSV: 2213812
-  * **Phan Hoàng Minh Khôi** – MSSV: 2211692
-* **Thời gian hoàn thành:** 15 tháng 4, 2026
 
 ---
 
