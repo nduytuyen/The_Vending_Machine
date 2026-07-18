@@ -9,7 +9,7 @@ Dự án tập trung vào việc hiện thực hóa bộ điều khiển bằng 
 ## 👥 Thành viên thực hiện & Giảng viên hướng dẫn
 * **Giảng viên hướng dẫn:** PGS. TS. Trần Hoàng Linh
 * **Nhóm sinh viên thực hiện:**
-  * **Nguyễn Duy Tuyên** – MSSV: 2213821
+  * **Nguyễn Duy Tuyên**
 
 ---
 
